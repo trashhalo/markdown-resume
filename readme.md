@@ -1,5 +1,5 @@
 #Markdown Resume
-A tiny vagrant box that lets you maintain a resume in markdown. Supports converting from markdown to pdf via pandoc.
+A tiny vagrant box that lets you maintain a resume in markdown. Supports converting from markdown to pdf, docx and html
 
 ## Environment Setup
 1. Install [Virtualbox](https://www.virtualbox.org/)
@@ -10,5 +10,5 @@ A tiny vagrant box that lets you maintain a resume in markdown. Supports convert
 2. In your clone on the command line run: `vagrant up`
 3. After the vagrant box comes up ssh into the box: `vagrant ssh `
 4. Go to the clone in vagrant: `cd /vagrant`
-6. Edit `resume.markdown` to your liking
-5. Build your resume.pdf: `make`
+6. Edit `src/resume.markdown` to your liking
+5. Build your resume: `make`
